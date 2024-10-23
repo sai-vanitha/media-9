@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 300px;
+    border: 2px solid;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    text-align: center;
+}
+@media screen and (width <= 500px) {
+    nav{
+        display: none;
+    }
+    
+}
+@media screen and (width >= 500px) {
+    nav{
+        display: inline-block;
+    }
+    
+}
